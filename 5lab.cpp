@@ -6,25 +6,25 @@ int main() {
     std::cin >> letter;
     switch (letter) {
         case 'A':
-            std::cout << "Apple (Яблоко)" << std::endl;
+            std::cout << "Apple" << std::endl;
             break;
         case 'S':
-            std::cout << "Sun (Солнце)" << std::endl;
+            std::cout << "Sun" << std::endl;
             break;
         case 'D':
-            std::cout << "Dog (Собака)" << std::endl;
+            std::cout << "Dog" << std::endl;
             break;
         case 'F':
-            std::cout << "Fox (Лиса)" << std::endl;
+            std::cout << "Fox" << std::endl;
             break;
         case 'B':
-            std::cout << "Banana (Банан)" << std::endl;
+            std::cout << "Banana" << std::endl;
             break;
         case 'R':
-            std::cout << "Red (Красный)" << std::endl;
+            std::cout << "Red" << std::endl;
             break;
         default:
-            std::cout << "Ошибка: введен неверный символ!" << std::endl;
+            std::cout << "Ошибка:введен неверный символ" << std::endl;
     }
 
     return 0;
